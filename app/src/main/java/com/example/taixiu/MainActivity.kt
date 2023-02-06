@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
+        println(value)
         resultImageView.setImageResource(img)
         resultImageView.contentDescription=dice.roll().toString()
 
